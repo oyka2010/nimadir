@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #070724;
+  padding-top: 22px;
+  padding-bottom: 27px;
+  border-bottom: 1px solid grey;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  width: 1368px;
+  margin: 0 auto;
+}
+header .header h2 {
+  color: #FFFFFF;
+  margin: 0px;
+}
+header .header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #070724;
+}
+main section {
+  widows: 540px;
+  height: 200px;
+  font-family: open sans;
+}/*# sourceMappingURL=stayle.css.map */

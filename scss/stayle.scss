@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #070724;
+    padding-top: 22px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid grey;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 1368px;
+        margin: 0 auto;
+        h2{
+            color: #FFFFFF;
+            margin: 0px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            column-gap: 33px;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+main {
+    display: flex;
+    width: 100%;
+    background-color: #070724;
+}

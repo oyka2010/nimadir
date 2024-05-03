@@ -99,6 +99,39 @@ main{
         }
     }
 }
+footer{
+    width: 100%;
+    .conteniar{
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .wrapper{
+            width: 255px;
+            padding: 20px 0px 27px 23px;
+            border: 1px solid #38384F;
+            p{
+                font-size: 11px;
+                font-weight: 700;
+                line-height: 25px;
+                letter-spacing: 1px;
+                text-align: left;
+                color: #38384F;
+                margin: 0px;
+            }
+            h4{
+                font-family: Antonio;
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 51.76px;
+                letter-spacing: -1.5px;
+                text-align: left;
+                color: #FFFFFF;
+                margin: 0px;
+            }
+        }
+    }
+}
 
 
 

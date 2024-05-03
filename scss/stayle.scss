@@ -56,6 +56,7 @@ main{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 0px 10px;
     color: #FFFFFF;
     section{
         max-width: 350px;
@@ -105,6 +106,29 @@ main{
             padding: 0px 5px;
             h2{
                 margin-bottom: 39px;
+            }
+        }
+    }
+    main{
+        justify-content: start;
+        flex-direction: column;
+        .img{
+            max-width: 184px;
+            margin: 0 auto;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 690px;
+            .section-content{
+                max-width: 339px;
+            }
+            .btns{
+                max-width: 281px;
+                button{
+                    width: 281px;
+                }
             }
         }
     }

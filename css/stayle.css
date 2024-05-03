@@ -59,6 +59,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 0px 10px;
   color: #FFFFFF;
 }
 main section {
@@ -106,6 +107,29 @@ main section .btns button:hover {
   }
   header .header h2 {
     margin-bottom: 39px;
+  }
+  main {
+    justify-content: start;
+    flex-direction: column;
+  }
+  main .img {
+    max-width: 184px;
+    margin: 0 auto;
+  }
+  main section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 690px;
+  }
+  main section .section-content {
+    max-width: 339px;
+  }
+  main section .btns {
+    max-width: 281px;
+  }
+  main section .btns button {
+    width: 281px;
   }
 }
 @media (max-width: 530px) {

@@ -137,6 +137,16 @@ footer .conteniar .wrapper h4 {
   margin: 0px;
 }
 
+@media (max-width: 1200px) {
+  footer .conteniar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+  }
+  footer .conteniar .wrapper {
+    width: 164px;
+  }
+}
 @media (max-width: 768px) {
   header .header {
     flex-direction: column;
@@ -167,6 +177,15 @@ footer .conteniar .wrapper h4 {
   }
   main section .btns button {
     width: 281px;
+  }
+  footer .conteniar {
+    max-width: 320px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+  }
+  footer .conteniar .wrapper {
+    width: 100%;
   }
 }
 @media (max-width: 550px) {

@@ -133,7 +133,18 @@ footer{
     }
 }
 
-
+@media (max-width: 1200px){
+    footer{
+        .conteniar{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 8px;
+            .wrapper{
+                width: 164px;
+            }
+        }
+    }
+}
 
 @media (max-width: 768px){
     header{
@@ -165,6 +176,17 @@ footer{
                 button{
                     width: 281px;
                 }
+            }
+        }
+    }
+    footer{
+        .conteniar{
+            max-width: 320px;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0px;
+            .wrapper{
+                width: 100%;
             }
         }
     }
